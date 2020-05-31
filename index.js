@@ -11,7 +11,7 @@ const test = function (number, locale) {
   return number.toLocaleString(locale)
 }
 
-const util = require("./util").groupBy
+const util = require("./util")
 
 module.exports = {
   test,
