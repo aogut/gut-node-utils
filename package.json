@@ -1,6 +1,6 @@
 {
-  "name": "node-utils",
-  "version": "1.0.0",
+  "name": "gut-node-utils",
+  "version": "1.0.1",
   "description": "test",
   "main": "index.js",
   "scripts": {
