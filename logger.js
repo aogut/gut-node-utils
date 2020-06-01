@@ -36,8 +36,8 @@ const mySqlFormat = printf(({ message }) => {
 })
 
 // LOGGER Options
-const loggerOptionGenerator = (formatter, fileTransport) => {
-  transports = [consoleLog]
+const loggerOptionGenerator = ({ formatter, fileTransport }) => {
+  let transports = [consoleLog]
   if (fileTransport != null) {
     let channel = new winston.transports.File({
       filename: fileTransport,
