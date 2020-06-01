@@ -1,19 +1,11 @@
 "use strict"
 
-/**
- * Adds commas to a number
- * @param {number} number
- * @param {string} locale
- * @return {string}
- */
-
-const test = function (number, locale) {
-  return number.toLocaleString(locale)
-}
-
-const util = require("./util").groupBy
+const util = require("./util")
+const jwt = require("./jwtToken")
+const dbconn = require("./dbconn-psql")
 
 module.exports = {
-  test,
+  jwt,
+  dbconn,
   util
 }

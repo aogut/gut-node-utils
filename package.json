@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/aogut/node-utils/issues"
   },
-  "homepage": "https://github.com/aogut/node-utils#readme"
+  "homepage": "https://github.com/aogut/node-utils#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "winston": "^3.2.1"
+  }
 }
